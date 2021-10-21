@@ -1,0 +1,15 @@
+
+package com.swt.batchwriters;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BatchwritersApplication {
+
+    public static void main(String[] args) {
+
+        System.exit( SpringApplication.exit( SpringApplication.run(BatchwritersApplication.class, args)));
+    }
+
+}
